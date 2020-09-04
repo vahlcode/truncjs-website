@@ -6,11 +6,11 @@
 }
 
 :root {
-  --primary-color: #84fab0;
-  --gradient-color: linear-gradient( to bottom, #84fab0, #8fd3f4);
-  --primary-color-light: #ebf8ff;
-  --background-color: #091014;
-  --font-color: #edf8fd;
+  --primary-color: #fda085;
+  --gradient-color: linear-gradient(to bottom, #f6d365 0%, #fda085 100%);
+  --primary-color-light: #fff9e6;
+  --background-color: #070500;
+  --font-color: #fffcf4;
 }
 
 .App.draw {
@@ -19,9 +19,9 @@
 
 .App {
   background: var(--background-color);
-  border-left-width: 20px;
-  border-left-style: solid;
-  border-image: linear-gradient( to bottom, #84fab0, #8fd3f4) 1 100%;
+  border-top-width: 20px;
+  border-top-style: solid;
+  border-image: linear-gradient(to bottom, #f6d365 0%, #fda085 100%) 100% 1;
   height: 100vh;
   width: 100vw;
   display: flex;

@@ -1,6 +1,6 @@
 {
-  "name": "uniquechars-landing",
-  "description": "Generate random strings and numbers from from strings or group of numbers.",
+  "name": "truncjs-landing",
+  "description": "A JavaScript plugin for truncating strings. Useful for making post excerpts.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

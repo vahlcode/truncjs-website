@@ -18,9 +18,9 @@ export class Intro extends Component {
         const {draw} = this.state
         return(
             <div className={`intro${draw ? " draw" : ""}`}>
-                <h5>UNIQUE CHARS</h5>
+                <h5>Trunc JS</h5>
                 <h1>
-                   Generate random strings and numbers from from strings or group of numbers.
+                    A JavaScript plugin for truncating strings.
                 </h1>
                 <button id="read">
                     <span>Get Started</span>
